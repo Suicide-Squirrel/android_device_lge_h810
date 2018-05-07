@@ -21,10 +21,10 @@
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4492099584
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24935137280
 
-TARGET_OTA_ASSERT_DEVICE := g4,p1,h812,h812_usu
+TARGET_OTA_ASSERT_DEVICE := g4,p1,h810,h810_usu
 
 # Kernel
-TARGET_KERNEL_CONFIG := usu_h812_defconfig
+TARGET_KERNEL_CONFIG := usu_h810_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h811/BoardConfigVendor.mk
