@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_h810.mk
+    $(LOCAL_DIR)/lineage_h810_usu.mk
